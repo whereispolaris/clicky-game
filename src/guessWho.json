@@ -1,0 +1,8 @@
+[
+    {
+        "id": 1,
+        "name": "Alex",
+        "image": "../public/img/Alex.pg",
+        "occupation": "Cook"
+    }
+]
