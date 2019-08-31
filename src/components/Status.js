@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Home() {
+function Status() {
     return (
         <div className="col-sm text-center">
-            <h4>Clicky Game</h4>
+            <h4>Click an image to begin!</h4>
         </div>
     )
 }
 
-export default Home;
+export default Status;

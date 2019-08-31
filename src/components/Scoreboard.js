@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Home() {
+function Scoreboard() {
     return (
         <div className="col-sm text-center">
-            <h4>Clicky Game</h4>
+            <h4>Score: 0 | Top Score: 0</h4>
         </div>
     )
 }
 
-export default Home;
+export default Scoreboard;

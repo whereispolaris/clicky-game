@@ -1,5 +1,7 @@
 import React from 'react';
 import Home from './Home';
+import Status from './Status';
+import Scoreboard from './Scoreboard';
 import style from './Header.css'
 
 function Header() {
@@ -9,13 +11,9 @@ function Header() {
                 {/* // Home Component */}
                 <Home />
                 {/* // Status Component */}
-                <div className="col-sm text-center">
-                    One of three columns
-                </div>
+                <Status />
                 {/* // Score Component */}
-                <div className="col-sm text-center">
-                    One of three columns
-                </div>
+                <Scoreboard />
             </div>
         </div>
     );
