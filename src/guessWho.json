@@ -2,7 +2,61 @@
     {
         "id": 1,
         "name": "Alex",
-        "image": "../public/img/Alex.pg",
-        "occupation": "Cook"
+        "image": "https://whereispolaris.github.io/clicky-game/img/Alex.png"
+    },
+    {
+        "id": 2,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/Alfred.png"
+    },
+    {
+        "id": 3,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/Anita.png"
+    },
+    {
+        "id": 4,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/Anne.png"
+    },
+    {
+        "id": 5,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/Bernard.png"
+    },
+    {
+        "id": 6,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/Bill.png"
+    },
+    {
+        "id": 7,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/Charles.png"
+    },
+    {
+        "id": 8,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/Claire.png"
+    },
+    {
+        "id": 9,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/David.png"
+    },
+    {
+        "id": 10,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/Eric.png"
+    },
+    {
+        "id": 11,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/Frans.png"
+    },
+    {
+        "id": 12,
+        "name": "Alex",
+        "image": "https://whereispolaris.github.io/clicky-game/img/George.png"
     }
 ]
