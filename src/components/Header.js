@@ -3,18 +3,18 @@ import style from './Header.css'
 
 function Header() {
     return (
-        <div className="container">
-            <div className="row">
-                // Home Component
-                <div className="col-sm">
+        <div className="container-fluid">
+            <div className="row justify-content-center">
+                {/* // Home Component */}
+                <div className="col-sm text-center">
                     One of three columns
                 </div>
-                // Status Component
-                <div className="col-sm">
+                {/* // Status Component */}
+                <div className="col-sm text-center">
                     One of three columns
                 </div>
-                // Score Component
-                <div className="col-sm">
+                {/* // Score Component */}
+                <div className="col-sm text-center">
                     One of three columns
                 </div>
             </div>
