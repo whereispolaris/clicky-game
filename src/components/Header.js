@@ -1,4 +1,5 @@
 import React from 'react';
+import Home from './Home';
 import style from './Header.css'
 
 function Header() {
@@ -6,9 +7,7 @@ function Header() {
         <div className="container-fluid">
             <div className="row justify-content-center">
                 {/* // Home Component */}
-                <div className="col-sm text-center">
-                    One of three columns
-                </div>
+                <Home />
                 {/* // Status Component */}
                 <div className="col-sm text-center">
                     One of three columns
