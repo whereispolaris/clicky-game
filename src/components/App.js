@@ -5,6 +5,7 @@ import guessWho from "../guessWho.json";
 function App() {
   return (
     <Header />
+    // <Jumbotron />
   );
 }
 
