@@ -7,26 +7,40 @@ import Card from './Card';
 import guessWho from "../guessWho.json";
 
 
-function App() {
-  return (
-    <div>
-      <Header />
-      <Jumbotron />
-      <CardBox>
-        {guessWho.map(character => {
-          return (
-            <Card
-              key={character.id}
-              image={character.image}
-              name={guessWho.name}
-            />
-          )
-        })}
-      </CardBox>
-      <Footer />
-    </div>
+class App extends React.Component {
 
-  );
+  state = {
+    guessWho
+  }
+
+  handleClickedCard = (id) => {
+    console.log(id + " Has been clicked");
+  }
+
+  render() {
+    return (
+      <div>
+        <Header />
+        <Jumbotron />
+        <CardBox>
+          {guessWho.map(character => {
+            return (
+              <Card
+                key={character.id}
+                image={character.image}
+                name={character.name}
+                id={character.id}
+                clickedCard={this.handleClickedCard}
+              />
+            )
+          })}
+        </CardBox>
+        <Footer />
+      </div>
+
+    );
+  }
+
 }
 
 export default App;
