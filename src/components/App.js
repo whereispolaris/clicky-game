@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Jumbotron from './Jumbotron';
+import Footer from './Footer';
 import CardBox from './CardBox';
 
 
@@ -10,7 +11,7 @@ function App() {
       <Header />
       <Jumbotron />
       <CardBox />
-
+      <Footer />
     </div>
 
   );

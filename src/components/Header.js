@@ -6,14 +6,14 @@ import './Header.css'
 
 function Header() {
     return (
-        <div className="nav-menu row justify-content-center navbar-fixed-top">
+        <nav className="nav-menu navbar navbar-inverse navbar-fixed-top">
             {/* // Home Component */}
             <Home />
             {/* // Status Component */}
             <Status />
             {/* // Score Component */}
             <Scoreboard />
-        </div>
+        </nav>
     );
 }
 
