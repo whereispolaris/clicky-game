@@ -3,6 +3,8 @@ import Header from './Header';
 import Jumbotron from './Jumbotron';
 import Footer from './Footer';
 import CardBox from './CardBox';
+import Card from './Card';
+import guessWho from "../guessWho.json";
 
 
 function App() {
@@ -10,7 +12,17 @@ function App() {
     <div>
       <Header />
       <Jumbotron />
-      <CardBox />
+      <CardBox>
+        {guessWho.map(character => {
+          return (
+            <Card
+              key={character.id}
+              image={character.image}
+              name={guessWho.name}
+            />
+          )
+        })}
+      </CardBox>
       <Footer />
     </div>
 
