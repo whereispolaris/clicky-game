@@ -1,8 +1,8 @@
 
 .card {
     width: 18rem;
+    margin: 15px;
+    border: none;
 }
 
-img {
-    height: 25rem;
-}
+

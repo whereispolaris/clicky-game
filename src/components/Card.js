@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './Card.css'
+import './Card.css';
 function Card(props) {
     return (
-        <div class="card">
-            <img className="image-fluid" src={props.image} />
+        <div className="card" style={{ width: '18rem' }} >
+            <img className="image-fluid" src={props.image} alt={props.name} />
         </div>
     );
 }

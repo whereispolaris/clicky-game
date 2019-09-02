@@ -5,10 +5,17 @@ import guessWho from "../guessWho.json";
 function CardBox() {
     return (
         <div className="container-fluid">
-            <Card
-                image={guessWho[0].image}
-                name={guessWho[0].name}
-            />
+            <div className="row">
+                {guessWho.map(character => {
+                    return (
+                        <Card
+                            key={character.id}
+                            image={character.image}
+                            name={guessWho.name}
+                        />
+                    )
+                })}
+            </div>
         </div>
     );
 }

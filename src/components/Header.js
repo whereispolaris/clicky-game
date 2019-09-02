@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Home';
 import Status from './Status';
 import Scoreboard from './Scoreboard';
-import style from './Header.css'
+import './Header.css'
 
 function Header() {
     return (
