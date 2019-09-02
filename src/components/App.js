@@ -15,6 +15,9 @@ class App extends React.Component {
 
   handleClickedCard = (id) => {
     console.log(id + " Has been clicked");
+    this.setState({
+      guessWho: this.state.guessWho.sort(() => Math.random() - 0.5)
+    })
   }
 
   render() {
