@@ -4,7 +4,7 @@ import guessWho from "../guessWho.json";
 
 function CardBox() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" style={{ padding: '0 100px' }}>
             <div className="row">
                 {guessWho.map(character => {
                     return (

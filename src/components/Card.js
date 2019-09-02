@@ -2,8 +2,8 @@ import React from 'react';
 import './Card.css';
 function Card(props) {
     return (
-        <div className="card" style={{ width: '18rem' }} >
-            <img className="image-fluid" src={props.image} alt={props.name} />
+        <div className="card" style={{ width: '11rem' }} >
+            <img className="image" src={props.image} alt={props.name} />
         </div>
     );
 }
