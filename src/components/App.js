@@ -10,14 +10,15 @@ import guessWho from "../guessWho.json";
 class App extends React.Component {
 
   state = {
-    guessWho
+    guessWho,
+    clicked: false
   }
 
   handleClickedCard = (id) => {
     console.log(id + " Has been clicked");
     this.setState({
       guessWho: this.state.guessWho.sort(() => Math.random() - 0.5)
-    })
+    });
   }
 
   render() {
@@ -33,7 +34,9 @@ class App extends React.Component {
                 image={character.image}
                 name={character.name}
                 id={character.id}
+                clicked={this.state.clicked}
                 clickedCard={this.handleClickedCard}
+
               />
             )
           })}
