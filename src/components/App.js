@@ -21,6 +21,7 @@ class App extends React.Component {
     console.log(id + " Has been clicked");
     this.setState({
       score: this.state.score += 1,
+      message: "You guessed correctly!",
       guessWho: this.state.guessWho.sort(() => Math.random() - 0.5)
     });
   }
