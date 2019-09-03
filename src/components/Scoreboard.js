@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Scoreboard() {
+function Scoreboard(props) {
     return (
         <div className="col-sm text-center">
-            <h4>Score: 0 | Top Score: 0</h4>
+            <h4>Score: {props.score} | Top Score: {props.topScore}</h4>
         </div>
     )
 }
