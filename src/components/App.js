@@ -11,12 +11,16 @@ class App extends React.Component {
 
   state = {
     guessWho,
-    clicked: false
+    clicked: false,
+    score: 0,
+    topScore: 12,
+    message: "Click and Image to Begin!"
   }
 
   handleClickedCard = (id) => {
     console.log(id + " Has been clicked");
     this.setState({
+      score: this.state.score += 1,
       guessWho: this.state.guessWho.sort(() => Math.random() - 0.5)
     });
   }
@@ -24,7 +28,11 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header
+          score={this.state.score}
+          topScore={this.state.topScore}
+          message={this.state.message}
+        />
         <Jumbotron />
         <CardBox>
           {guessWho.map(character => {

@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Status() {
+function Status(props) {
     return (
         <div className="col-sm text-center">
-            <h4>Click an image to begin!</h4>
+            <h4>{props.message}</h4>
         </div>
     )
 }
