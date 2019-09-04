@@ -11,19 +11,26 @@ class App extends React.Component {
 
   state = {
     guessWho,
-    clicked: false,
     score: 0,
     topScore: 12,
     message: "Click and Image to Begin!"
   }
 
   handleClickedCard = (id) => {
-    console.log(id + " Has been clicked");
-    this.setState({
-      score: this.state.score += 1,
-      message: "You guessed correctly!",
-      guessWho: this.state.guessWho.sort(() => Math.random() - 0.5)
-    });
+    if (this.state.guessWho[id - 1].clicked) {
+      this.setState({
+        message: "You're wrong!",
+        // Set all the card's 'clicked' key to 'false'
+      });
+    } else {
+      this.setState({
+        score: this.state.score += 1,
+        message: "You guessed correctly!",
+        // Set the card's 'clicked' state to 'true'
+        guessWho: this.state.guessWho.sort(() => Math.random() - 0.5)
+      });
+    }
+
   }
 
   render() {
@@ -43,7 +50,7 @@ class App extends React.Component {
                 image={character.image}
                 name={character.name}
                 id={character.id}
-                clicked={this.state.clicked}
+                clicked={character.clicked}
                 clickedCard={this.handleClickedCard}
 
               />
