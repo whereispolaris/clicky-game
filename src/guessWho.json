@@ -7,67 +7,67 @@
     },
     {
         "id": 2,
-        "name": "Alex",
+        "name": "Anne",
         "image": "https://whereispolaris.github.io/clicky-game/img/Alfred.png",
         "clicked": false
     },
     {
         "id": 3,
-        "name": "Alex",
+        "name": "Anita",
         "image": "https://whereispolaris.github.io/clicky-game/img/Anita.png",
         "clicked": false
     },
     {
         "id": 4,
-        "name": "Alex",
+        "name": "Anne",
         "image": "https://whereispolaris.github.io/clicky-game/img/Anne.png",
         "clicked": false
     },
     {
         "id": 5,
-        "name": "Alex",
+        "name": "Bernard",
         "image": "https://whereispolaris.github.io/clicky-game/img/Bernard.png",
         "clicked": false
     },
     {
         "id": 6,
-        "name": "Alex",
+        "name": "Bill",
         "image": "https://whereispolaris.github.io/clicky-game/img/Bill.png",
         "clicked": false
     },
     {
         "id": 7,
-        "name": "Alex",
+        "name": "Charles",
         "image": "https://whereispolaris.github.io/clicky-game/img/Charles.png",
         "clicked": false
     },
     {
         "id": 8,
-        "name": "Alex",
+        "name": "Claire",
         "image": "https://whereispolaris.github.io/clicky-game/img/Claire.png",
         "clicked": false
     },
     {
         "id": 9,
-        "name": "Alex",
+        "name": "David",
         "image": "https://whereispolaris.github.io/clicky-game/img/David.png",
         "clicked": false
     },
     {
         "id": 10,
-        "name": "Alex",
+        "name": "Eric",
         "image": "https://whereispolaris.github.io/clicky-game/img/Eric.png",
         "clicked": false
     },
     {
         "id": 11,
-        "name": "Alex",
+        "name": "Frans",
         "image": "https://whereispolaris.github.io/clicky-game/img/Frans.png",
         "clicked": false
     },
     {
         "id": 12,
-        "name": "Alex",
+        "name": "George",
         "image": "https://whereispolaris.github.io/clicky-game/img/George.png",
         "clicked": false
     }
