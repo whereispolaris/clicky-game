@@ -12,7 +12,7 @@ class App extends React.Component {
   state = {
     guessWho,
     score: 0,
-    topScore: 12,
+    topScore: 5,
     message: "Click and Image to Begin!"
   }
 
@@ -30,7 +30,12 @@ class App extends React.Component {
         guessWho: this.state.guessWho.sort(() => Math.random() - 0.5)
       });
     }
-
+    // Top score checker
+    if (this.state.topScore < this.state.score) {
+      this.setState({
+        topScore: this.state.score
+      })
+    }
   }
 
   render() {
