@@ -12,7 +12,7 @@ class App extends React.Component {
   state = {
     guessWho,
     score: 0,
-    topScore: 5,
+    topScore: 0,
     message: "Click and Image to Begin!",
     clickedCards: []
   }
@@ -22,8 +22,10 @@ class App extends React.Component {
     if (this.state.clickedCards.includes(id)) {
       this.setState({
         message: "You're wrong!",
+        // reset state on all elements
+        score: 0,
+        clickedCards: []
       });
-      // reset state on all elements
     } else {
       this.setState({
         // Console Error: "Do not mutate state directly. Use setState()  react/no-direct-mutation-state"
