@@ -13,28 +13,32 @@ class App extends React.Component {
     guessWho,
     score: 0,
     topScore: 5,
-    message: "Click and Image to Begin!"
+    message: "Click and Image to Begin!",
+    clickedCards: []
   }
 
   handleClickedCard = (id) => {
+    // find out if Card exists in clickedCards
     if (this.state.guessWho[id - 1].clicked) {
       this.setState({
         message: "You're wrong!",
-        // Set all the card's 'clicked' key to 'false'
+
       });
     } else {
       this.setState({
         score: this.state.score += 1,
         message: "You guessed correctly!",
-        // Set the card's 'clicked' state to 'true'
+        // Push card id to clickedCards
+        clickedCards: this.state.clickedCards.push(id),
         guessWho: this.state.guessWho.sort(() => Math.random() - 0.5)
       });
+      console.log(this.state.clickedCards);
     }
     // Top score checker
     if (this.state.topScore < this.state.score) {
       this.setState({
         topScore: this.state.score
-      })
+      });
     }
   }
 
