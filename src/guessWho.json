@@ -2,73 +2,61 @@
     {
         "id": 1,
         "name": "Alex",
-        "image": "https://whereispolaris.github.io/clicky-game/img/Alex.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/Alex.png"
     },
     {
         "id": 2,
         "name": "Anne",
-        "image": "https://whereispolaris.github.io/clicky-game/img/Alfred.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/Alfred.png"
     },
     {
         "id": 3,
         "name": "Anita",
-        "image": "https://whereispolaris.github.io/clicky-game/img/Anita.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/Anita.png"
     },
     {
         "id": 4,
         "name": "Anne",
-        "image": "https://whereispolaris.github.io/clicky-game/img/Anne.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/Anne.png"
     },
     {
         "id": 5,
         "name": "Bernard",
-        "image": "https://whereispolaris.github.io/clicky-game/img/Bernard.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/Bernard.png"
     },
     {
         "id": 6,
         "name": "Bill",
-        "image": "https://whereispolaris.github.io/clicky-game/img/Bill.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/Bill.png"
     },
     {
         "id": 7,
         "name": "Charles",
-        "image": "https://whereispolaris.github.io/clicky-game/img/Charles.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/Charles.png"
     },
     {
         "id": 8,
         "name": "Claire",
-        "image": "https://whereispolaris.github.io/clicky-game/img/Claire.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/Claire.png"
     },
     {
         "id": 9,
         "name": "David",
-        "image": "https://whereispolaris.github.io/clicky-game/img/David.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/David.png"
     },
     {
         "id": 10,
         "name": "Eric",
-        "image": "https://whereispolaris.github.io/clicky-game/img/Eric.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/Eric.png"
     },
     {
         "id": 11,
         "name": "Frans",
-        "image": "https://whereispolaris.github.io/clicky-game/img/Frans.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/Frans.png"
     },
     {
         "id": 12,
         "name": "George",
-        "image": "https://whereispolaris.github.io/clicky-game/img/George.png",
-        "clicked": false
+        "image": "https://whereispolaris.github.io/clicky-game/img/George.png"
     }
 ]
