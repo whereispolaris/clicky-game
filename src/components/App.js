@@ -18,21 +18,26 @@ class App extends React.Component {
   }
 
   handleClickedCard = (id) => {
-    // find out if Card exists in clickedCards
-    if (this.state.guessWho[id - 1].clicked) {
+    // find out if id exists in clickedCards array
+    if (this.state.clickedCards.includes(id)) {
       this.setState({
         message: "You're wrong!",
-
       });
+      // reset state on all elements
     } else {
       this.setState({
+        // Console Error: "Do not mutate state directly. Use setState()  react/no-direct-mutation-state"
         score: this.state.score += 1,
         message: "You guessed correctly!",
-        // Push card id to clickedCards
-        clickedCards: this.state.clickedCards.push(id),
         guessWho: this.state.guessWho.sort(() => Math.random() - 0.5)
       });
-      console.log(this.state.clickedCards);
+      // Push card id to clickedCards
+      this.setState({
+        clickedCards: [
+          ...this.state.clickedCards,
+          id
+        ]
+      })
     }
     // Top score checker
     if (this.state.topScore < this.state.score) {
@@ -40,6 +45,8 @@ class App extends React.Component {
         topScore: this.state.score
       });
     }
+    console.log(this.state.clickedCards);
+
   }
 
   render() {
