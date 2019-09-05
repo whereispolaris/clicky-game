@@ -1,9 +1,9 @@
 .nav-menu {
     padding: 20px;
-    background: black;
+    background: #055094;
     color: white;
 }
 
-/* body {
-    background: grey;
-} */
+.instructions {
+    margin-top: 20px;
+}
