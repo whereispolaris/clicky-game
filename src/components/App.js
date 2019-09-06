@@ -14,7 +14,8 @@ class App extends React.Component {
     score: 0,
     topScore: 0,
     message: "Click and Image to Begin!",
-    clickedCards: []
+    clickedCards: [],
+    wrongImage: false
   }
 
   handleClickedCard = (id) => {
@@ -22,12 +23,14 @@ class App extends React.Component {
     if (this.state.clickedCards.includes(id)) {
       this.setState({
         message: "You're wrong!",
+        wrongImage: true,
         // reset state on all elements
         score: 0,
         clickedCards: []
       });
     } else {
       this.setState({
+        wrongImage: false,
         // Console Error: "Do not mutate state directly. Use setState()  react/no-direct-mutation-state"
         score: this.state.score += 1,
         message: "You guessed correctly!",
@@ -60,7 +63,7 @@ class App extends React.Component {
           message={this.state.message}
         />
         <Jumbotron />
-        <CardBox>
+        <CardBox wrongImage={this.state.wrongImage}>
           {guessWho.map(character => {
             return (
               <Card
