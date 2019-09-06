@@ -61,6 +61,7 @@ class App extends React.Component {
           score={this.state.score}
           topScore={this.state.topScore}
           message={this.state.message}
+          wrongImage={this.state.wrongImage}
         />
         <Jumbotron />
         <CardBox wrongImage={this.state.wrongImage}>
@@ -73,7 +74,6 @@ class App extends React.Component {
                 id={character.id}
                 clicked={character.clicked}
                 clickedCard={this.handleClickedCard}
-
               />
             )
           })}

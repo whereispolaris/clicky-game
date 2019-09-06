@@ -8,7 +8,7 @@ const Header = (props) => {
     return (
         <nav className="nav-menu navbar navbar-inverse navbar-fixed-top" >
             <Home />
-            <Status message={props.message} />
+            <Status wrongImage={props.wrongImage} message={props.message} />
             <Scoreboard score={props.score} topScore={props.topScore} />
         </nav>
     );
