@@ -56,7 +56,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="wrapper">
         <Header
           score={this.state.score}
           topScore={this.state.topScore}
