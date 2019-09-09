@@ -1,8 +1,11 @@
 .wrongImage {
     color: #D21F2F;
-    text-shadow: 2px 2px 0 #FFFF, 2px -2px 0 #FFFF, -2px 2px 0 #FFFF, -2px -2px 0 #FFFF, 2px 0px 0 #FFFF, 0px 2px 0 #FFFF, -2px 0px 0 #FFFF, 0px -2px 0 #FFFF, 2px 2px 2px rgba(255,255,255,0);
+    text-shadow: 1px 1px 0 #FFFF, 1px -1px 0 #FFFF, -1px 1px 0 #FFFF, -1px -1px 0 #FFFF, 1px 0px 0 #FFFF, 0px 1px 0 #FFFF, -1px 0px 0 #FFFF, 0px -1px 0 #FFFF, 1px 1px 1px rgba(255,255,255,0);
+    letter-spacing: 1px;
 }
 
 .correctImage {
     color: #bfb546;
+     text-shadow: 1px 1px 0 #D21F2F, 1px -1px 0 #D21F2F, -1px 1px 0 #D21F2F, -1px -1px 0 #D21F2F, 1px 0px 0 #D21F2F, 0px 1px 0 #FFFF, -1px 0px 0 #FFFF, 0px -1px 0 #FFFF, 1px 1px 1px rgba(255,255,255,0);
+     text-shadow: 1px 1px 0 #D21F2F, 1px -1px 0 #D21F2F, -1px 1px 0 #D21F2F, -1px -1px 0 #D21F2F, 1px 0px 0 #, 0px 1px 0 #FFFF, -1px 0px 0 #FFFF, 0px -1px 0 #FFFF, 1px 1px 1px rgba(255,255,255,0);
 }

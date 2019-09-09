@@ -22,7 +22,7 @@ class App extends React.Component {
     // find out if id exists in clickedCards array
     if (this.state.clickedCards.includes(id)) {
       this.setState({
-        message: "You're wrong!",
+        message: "You guessed incorrectly!",
         wrongImage: true,
         // reset state on all elements
         score: 0,
