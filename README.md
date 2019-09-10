@@ -2,7 +2,7 @@
 
 Memory game inspired by the  _Guess Who?_ board game. It uses stateless components with information being passed as props from stateful parent component. 
 
-![Clicky Game Demo](http://whereispolaris.github.io/clicky-game/img/clicky-game-demo.gif "Clicky Game Demo")
+![Clicky Game Demo](https://whereispolaris.github.io/clicky-game/img/clicky-game-demo.gif "Clicky Game Demo")
 
 Technologies Used:
 - [Create React App](https://github.com/facebook/create-react-app).
