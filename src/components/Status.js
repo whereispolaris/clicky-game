@@ -4,7 +4,7 @@ import './Status.css'
 function Status(props) {
     return (
         <div className="col-sm text-center">
-            <h4 className={props.wrongImage ? "wrongImage" : "correctImage"}>{props.message}</h4>
+            <h4 className={props.wrongImage ? "wrongImage shake" : "correctImage"}>{props.message}</h4>
         </div>
     )
 }
