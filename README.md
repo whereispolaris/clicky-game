@@ -4,6 +4,8 @@ Memory game inspired by the  _Guess Who?_ board game. It uses stateless componen
 
 ![Clicky Game Demo](https://whereispolaris.github.io/clicky-game/img/clicky-game-demo.gif "Clicky Game Demo")
 
+[Play Game!](https://whereispolaris.github.io/clicky-game/)
+
 Technologies Used:
 - [Create React App](https://github.com/facebook/create-react-app).
 - [Bootstrap](https://getbootstrap.com)
