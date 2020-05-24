@@ -11,7 +11,7 @@ class App extends React.Component {
 		guessWho,
 		score: 0,
 		topScore: 0,
-		message: 'Click On A Character!',
+		message: 'Click on a character!',
 		clickedCards: [],
 		wrongImage: false,
 	};
